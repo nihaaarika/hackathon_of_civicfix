@@ -8,6 +8,6 @@
 CivicFix helps users:
 - 📍 Report local civic issues (e.g., potholes, streetlight outages)
 - 🧭 View issue status and updates
-- 🛠️ Help improve communication between citizens and authorities
+- 🛠️ Help improve communication between citizens and authority
 
 ---
