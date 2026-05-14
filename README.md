@@ -28,14 +28,6 @@ CivicFix uses role-based access control to ensure that each user interacts only 
 | Resolver | Handle issue resolution and workflow updates |
 | Super Admin | Oversee users, bans, roles, and platform-level control |
 
-## Tech Stack
-
-| Layer | Technology |
-|------|------------|
-| Backend | Django (Python) |
-| Frontend | Bootstrap |
-| Database | PostgreSQL |
-| Charts / Analytics | Chart.js |
 
 ## How It Works
 
@@ -109,34 +101,15 @@ Potential enhancements for the platform include:
 - AI-based issue classification and prioritization.
 - Public dashboard for open civic transparency.
 
-## Installation
 
-> Update the commands below based on your actual project structure and files.
-
-```bash
-git clone https://github.com/nihaaarika/civicfix.git
-cd civicfix
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\\Scripts\\activate
-pip install -r requirements.txt
-```
 
 ### Configure the database
 
 Update your PostgreSQL database credentials in the Django settings file.
 
-### Run migrations
 
-```bash
-python manage.py makemigrations
-python manage.py migrate
-```
 
 ### Start the development server
-
-```bash
-python manage.py runserver
-```
 
 Open your browser and visit:
 
@@ -148,13 +121,8 @@ http://127.0.0.1:8000/
 
 ```bash
 civicfix/
-├── manage.py
-├── requirements.txt
-├── civicfix/
-├── apps/
-├── templates/
-├── static/
-├── media/
+├── app1.html/
+├── LICENSE/
 └── README.md
 ```
 
